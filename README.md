@@ -1,7 +1,7 @@
 # Spatial-mecanics
 ## output :
 ![Figure_3](https://user-images.githubusercontent.com/108919405/220876314-f1ee527e-2e1c-446c-8957-76db556b9abb.png)
-## cde :
+## code :
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
