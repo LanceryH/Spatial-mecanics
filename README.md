@@ -18,7 +18,7 @@ def radius(a,e):
     rb=a*(1-e)
     return ra,rb
 ```
-altitude calcul
+altitud calcul
 ```python
 def altitude(ra,rb,re):
     #on peut utiliser a et e
