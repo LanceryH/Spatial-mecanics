@@ -202,8 +202,8 @@ def get_ls_la_lo_sate(data_float,data_str):
     Zmean = ZA+ZB
     return list_ls,list_la,list_lon,Zmean,name
 ```
-We choose the data between the line 2051 and 2053
-and we calculate the longitude and latitude
+We choose the data to see, here by default we chose between 2051 and 2053 wich will gives in output the trajectory of the satellite n°2052 (multiple satellites can be selected).
+Next we calculate the longitude and latitude
 ```python
 response = requests.get("https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=csv")
 data = response.content.decode('utf-8')
